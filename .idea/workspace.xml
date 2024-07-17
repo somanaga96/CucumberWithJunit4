@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eff9345d-1bdf-4c27-b614-370d272dca51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alertPackage/Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alertPackage/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alertPackage/Cricbuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/alert/Alert.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/criccbuzz/Cricbuzz.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertPackage/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertPackage/Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/alert/Alert.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/alert/Alert.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721223887050</updated>
       <workItem from="1721223888277" duration="930000" />
-      <workItem from="1721224826577" duration="2131000" />
+      <workItem from="1721224826577" duration="5104000" />
     </task>
     <servers />
   </component>

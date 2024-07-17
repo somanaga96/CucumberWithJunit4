@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(glue = "alertPackage",
-        features = "src/test/resources/features", tags = "@cricket or @alert",
-        plugin = {"pretty", "json:target/cucumber-reports/Cucumber.json","html:target/cucumber-reports/html.html"})
+        features = "src/test/resources/features", tags = "@alert3",
+        plugin = {"pretty", "json:target/cucumber-reports/Cucumber.json", "html:target/cucumber-reports/html.html"})
 public class TestRunner {
 }
