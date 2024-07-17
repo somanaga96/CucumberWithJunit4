@@ -8,3 +8,9 @@ Feature: Login to cricbuzz
       | country |
       | India   |
 
+    @frame
+    Scenario: frame handling
+      Given user login to frames website
+      Then user should able to see the "Page" message in ui
+      And switch the frame to Left
+
