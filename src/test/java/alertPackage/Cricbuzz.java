@@ -1,5 +1,6 @@
 package alertPackage;
 
+import utils.BaseTest;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -14,24 +15,8 @@ import org.openqa.selenium.interactions.Actions;
 import java.util.List;
 
 public class Cricbuzz {
-    WebDriver driver;
+    private WebDriver driver;
     BaseTest baseTest = new BaseTest();
-
-    @Given("^user logins to cricbuzz$")
-    public void userLoginsToCricbuzz() {
-        BaseTest baseTest = new BaseTest();
-        baseTest.commonSetupMethod();
-        this.driver = baseTest.getDriver();
-    }
-
-    @When("user select {string}")
-    public void user_select(String countryName) {
-        driver.get("https://www.cricbuzz.com/");
-        WebElement teamDropDown = driver.findElement(By.id("teamDropDown"));
-        Actions actions = new Actions(driver);
-        actions.moveToElement(teamDropDown).perform();
-        driver.findElement(By.xpath("//a[@title='" + countryName + " Cricket Team']")).click();
-    }
 
     @Given("user login to frames website")
     public void userLoginToFramesWebsite() {
@@ -43,11 +28,9 @@ public class Cricbuzz {
 
     @Then("user should able to see the {string} message in ui")
     public void userShouldAbleToSeeTheMessageInUi(String msg) {
-        BaseTest baseTest = new BaseTest();
         driver.switchTo().frame("top");
         String text = driver.findElement(By.xpath("//div[@class='app-navigation']//child::a[1]")).getText();
         Assert.assertEquals("message :", msg, text);
-        baseTest.tearDown();
     }
 
     @And("switch the frame to Left")
@@ -63,6 +46,22 @@ public class Cricbuzz {
         } finally {
             baseTest.tearDown();
         }
+    }
+
+    @Given("user logins to cricbuzz")
+    public void userLoginsToCricbuzz() {
+        baseTest.commonSetupMethod();
+        this.driver = baseTest.getDriver();
+    }
+
+    @When("user select {string}")
+    public void userSelect(String countryName) {
+        driver.get("https://www.cricbuzz.com/");
+        WebElement teamDropDown = driver.findElement(By.id("teamDropDown"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(teamDropDown).perform();
+        driver.findElement(By.xpath("//a[@title='" + countryName + " Cricket Team']")).click();
+        baseTest.tearDown();
     }
 }
 

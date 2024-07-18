@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eff9345d-1bdf-4c27-b614-370d272dca51" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/alertPackage/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertPackage/Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertPackage/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/alertPackage/Cricbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertPackage/Cricbuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/criccbuzz/Cricbuzz.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/criccbuzz/Cricbuzz.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,28 +34,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: Alert.executor": "Run",
-    "Cucumber Java.Feature: Cricbuzz.executor": "Run",
-    "JUnit.App.executor": "Run",
-    "JUnit.TestRunner.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.CucumberWithJunit4 [verify].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/soman/Workbench/BDD/CucumberWithJunit4/src/test/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: Alert.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Cricbuzz.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.App.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CucumberWithJunit4 [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/soman/Workbench/BDD/CucumberWithJunit4/src/test/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\soman\Workbench\BDD\CucumberWithJunit4\src\test\java" />
@@ -139,7 +138,8 @@
       <option name="presentableId" value="Default" />
       <updated>1721223887050</updated>
       <workItem from="1721223888277" duration="930000" />
-      <workItem from="1721224826577" duration="9452000" />
+      <workItem from="1721224826577" duration="10366000" />
+      <workItem from="1721308942011" duration="1353000" />
     </task>
     <servers />
   </component>
