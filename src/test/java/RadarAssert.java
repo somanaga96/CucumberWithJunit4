@@ -5,12 +5,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 import io.restassured.response.ResponseBody;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runner.Runner;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
-@RunWith(Runner.class)
 public class RadarAssert {
 
     @Test
@@ -20,6 +18,7 @@ public class RadarAssert {
         ObjectMapper objectMapper = new ObjectMapper();
         List<ToDoResponse> toDoResponse = objectMapper.readValue(body.asString(), new TypeReference<List<ToDoResponse>>() {
         });
-        System.out.println(toDoResponse);
+        List<ToDoResponse> collect = toDoResponse.stream().filter(x -> x.getId().equals(1)).collect(Collectors.toList());
+        System.out.println(collect);
     }
 }
